@@ -293,11 +293,15 @@ namespace MarkdownSharp
             Setup();
 
             text = Normalize(text);
-
+            Console.WriteLine(text);
             text = HashHTMLBlocks(text);
+            Console.WriteLine(text);
             text = StripLinkDefinitions(text);
+            Console.WriteLine(text);
             text = RunBlockGamut(text);
+            Console.WriteLine(text);
             text = Unescape(text);
+            Console.WriteLine(text);
 
             Cleanup();
 
