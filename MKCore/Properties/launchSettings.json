@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MKCore": {
+      "commandName": "Project",
+      "commandLineArgs": " TeslaV100.md"
+    }
+  }
+}
